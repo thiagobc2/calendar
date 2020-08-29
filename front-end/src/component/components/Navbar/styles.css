@@ -1,0 +1,38 @@
+#navbar {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 20px;
+  height: 20px;
+  border-bottom: 1px solid #999;
+}
+
+#navbar ul {
+  display: flex;
+  height: 37px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#navbar ul li {
+  color: #B9B9B9;
+  position: relative;
+  top:4px;
+  height: 20px;
+  margin-right: 30px;
+  font-size: 1.4rem;
+  }
+
+#navbar ul li:hover {
+  border-bottom: 2px solid #00568B;
+  color:#00568B;
+}
+
+@media (max-width: 533px) {
+  #navbar {
+    display: none;
+  }
+}
